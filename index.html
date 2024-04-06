@@ -1,0 +1,265 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Fio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <link
+      rel="shortcut icon"
+      href="https://i.pinimg.com/474x/1f/f9/3d/1ff93ded5ffc658704ac54a3c75a8e39.jpg"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/f90068558c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <img src="" class="header-icon" alt="" />
+        <h3 class="title"><a href="index.html">Cobee The Coder</a></h3>
+        <nav>
+          <a href="project.html">Project</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About Us</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="jumbotron">
+        <div class="jumbotron">
+          <h1 class="jumbotron-title" onmouseover="changeText2()">
+            Tips Coding!!
+          </h1>
+          <div class="header-flex">
+            <div>
+              <h2 class="jumbotron-text">
+                Baru di programming? <br />Belajar lewat pengembangan
+                <span style="color: sandybrown">Game dan Web</span> Sederhana
+              </h2>
+              <div class="mini-text-flex">
+                <p class="mini-text">Belajar Programming Awal</p>
+                <button id="icon-up" class="icon-up" onclick="changeText()">
+                  <i class="far fa-hand-point-up"></i>
+                </button>
+
+                <button id="icon-down" class="icon-down">
+                  <i class="far fa-hand-point-down"></i>
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <img
+                class="jumbotron-img"
+                src="https://i.pinimg.com/564x/e4/56/94/e4569443714172f2773aea229195685c.jpg"
+                alt="jumbotron"
+                width="auto"
+                height="300"
+                onmouseover="changeImage()"
+onmouseout="changeImageBack()"
+              />
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a2d9ff" fill-opacity="1" d="M0,224L40,234.7C80,245,160,267,240,245.3C320,224,400,160,480,154.7C560,149,640,203,720,224C800,245,880,235,960,224C1040,213,1120,203,1200,176C1280,149,1360,107,1400,85.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,224L40,234.7C80,245,160,267,240,245.3C320,224,400,160,480,154.7C560,149,640,203,720,224C800,245,880,235,960,224C1040,213,1120,203,1200,176C1280,149,1360,107,1400,85.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+
+      <section id="slider" class="section-slider">
+        <div class="image-slider">
+            <div class="slide active">
+                <img src="./assets/game-development.jpg" alt="gamedevelopment">
+                <div class="slide-text">
+                    <h2>Game Development</h2>
+                    <p>Instead of playing games all day long, why not create your own?</p>
+                </div>
+            </div>
+            <div class="image-slider">
+              <div class="slide">
+                  <img src="./assets/web-development.jpg" alt="web-development">
+                  <div class="slide-text">
+                      <h2>Web Development</h2>
+                      <p>Every company needs a website. Take advantage of that opportunity!</p>
+                  </div>
+              </div>
+        
+              <div class="image-slider">
+                <div class="slide">
+                    <img src="./assets/web-design.jpg" alt="web-design">
+                    <div class="slide-text">
+                        <h2>Wed Design</h2>
+                        <p>Color, Transition, and Animation are cool.</p>
+                    </div>
+                </div>
+        
+                <div class="image-slider">
+                  <div class="slide active">
+                      <img src="./assets/kids-programming.jpg" alt="kids-programming">
+                      <div class="slide-text">
+                          <h2>Kids Programming</h2>
+                          <p>Better to know earlier with a fun way of arranging blocks.</p>
+                      </div>
+                  </div>
+        
+                  <div class="image-slider">
+                    <div class="slide">
+                        <img src="./assets/apps.jpg" alt="apps">
+                        <div class="slide-text">
+                            <h2>Mobile Apps Development</h2>
+                            <p>Mobile apps are very popular and most needed in this world.</p>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                      <div class="slider-btn active"></div>
+                      <div class="slider-btn"></div>
+                      <div class="slider-btn"></div>
+                      <div class="slider-btn"></div>
+                      <div class="slider-btn"></div>
+                    </div>
+                    </div>
+                  </section>
+                
+        
+        </div>
+
+      <div class="main-content">
+        <aside>
+          <div>
+            <h3 class="aside-title">It’s Fionaa</h3>
+            <img
+              class="profile-picture"
+              src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/294/2023/09/29/Chika-Member-Generasi-Ketujuh-JKT48-1698070767.png"
+              alt="profile"
+              width="150px"
+              height="150px"
+            />
+
+            <div class="toggle">
+              <button class="btn" id="green" onclick="DayMode()">
+                <i class="fa fa-thumbs-up fa-lg"></i>
+              </button>
+              <button class="btn" id="red" onclick="NightMode()">
+                <i class="fa fa-thumbs-down fa-lg"></i>
+              </button>
+            </div>
+          </div>
+          <div class="search-tags-container">
+        <div class="input-tag">
+          <h3 class="aside-title">Search Here</h3>
+          <input id="myInput" type="text" placeholder="Search...">
+          <span class="addBtn" onclick="newElement()">Search</span>
+        </div>
+      <ul id="myUL" class="search-tags-list">
+        <li class="search-tags-item">HTML</li>
+        <li class="search-tags-item">Code</li>
+      </ul>
+      </div>
+        </aside>
+
+
+        <div class="content">
+          <article id="maps">
+            <div class="maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7789.071410501383!2d139.69715384256418!3d35.6583408654232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b57c35f334f%3A0xfe988e1056a6006a!2sShibuya%20Excel%20Hotel%20Tokyu!5e0!3m2!1sen!2sid!4v1700909774904!5m2!1sen!2sid"
+                width="640"
+                height="640"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </article>
+
+          <article id="maps">
+            <div class="maps">
+              <iframe
+                style="border-radius: 12px"
+                src="https://open.spotify.com/embed/track/4kkWvBCT6wq5NHoJjYRaPU?utm_source=generator&theme=0"
+                width="100%"
+                height="auto"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </article>
+
+          <article id="video">
+            <div class="item-video">
+              <h3 class="article-title">What is Coding?</h3>
+              <!-- tambahkan video youtube 1 disini -->
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/D8VEhcPeSlc?si=lTnKOGHybl0hNzIH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <h3 class="article-title">Coding Is Not Difficult!</h3>
+              <!-- tambahkan video youtube 2 disini -->
+            </div>
+          </article>
+
+          <article id="my-project">
+            <h3 class="article-title">My project</h3>
+            <div class="project-container">
+              <div class="project">
+                <img src="./assets/desert-rally.png" alt="" width="300px" height="210px" />
+                <h4 class="project-title">Desert Rally</h4>
+                <p class="project-description">
+                  Game Desert Rally menggunakan platform Scratch
+                </p>
+              </div>
+
+              <div class="project">
+                <img src="./assets/memory-game.png" alt="" width="300px" height="210px" />
+                <h4 class="project-title">Memory Game</h4>
+                <p class="project-description">
+                  Game Memory Game menggunakan platform Phaser
+                </p>
+              </div>
+            </div>
+            <div class="project-container">
+              <div class="project">
+                <img src="./assets/memory-game.png" alt="" width="300px" height="210px" />
+                <h4 class="project-title">Memory Game</h4>
+                <p class="project-description">
+                  Game Memory Game menggunakan platform Phaser
+                </p>
+              </div>
+
+              <div class="project">
+                <img src="./assets/desert-rally.png" alt="" width="300px" height="210px" />
+                <h4 class="project-title">Desert Rally</h4>
+                <p class="project-description">
+                  Game Desert Rally menggunakan platform Scratch
+                </p>
+              </div>
+            </div>
+          </article>
+      </div>
+    </main>
+    <footer>
+      <div class=""></div>
+      <div class="main-footer">
+        <h3 class="info-top">Cobee The Junior Programmer</h3>
+        <div class="social-media">
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fas fa-envelope"></i>
+        </div>
+        <p class="info-center">
+          Copyright &copy; 2023. Cobee. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="main.js"></script>
+</html>
